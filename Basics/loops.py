@@ -15,3 +15,7 @@ li = [11,12,13,14,15]
 for i in li :
     print(i)
     
+
+city = {"32":"Lucknow", "78":"Kanpur", "70":"Prayagraj", "16":"Noida"}
+for i in city :
+    print(i)
