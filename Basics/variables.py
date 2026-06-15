@@ -19,3 +19,8 @@ a, b = 10, 25
 print("Before Swapping a", a, " and b", b)
 a, b = b, a
 print("After Swapping a",a, " and b", b)
+
+x = 15
+y = 20
+sum = x + y
+print(sum)
