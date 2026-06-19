@@ -5,3 +5,8 @@ print(li)
 
 for i in li :
     print(i)
+
+city = ["Delhi", "Mumbai", "Kolkata", "Chennai"]
+
+for c in city : 
+    print(c)
