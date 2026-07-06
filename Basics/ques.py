@@ -20,3 +20,18 @@ sol_exp = 3 + 2 ** 4 / 2 * 5 - 8 // 2
 # 3 + 40 - 4
 # 3 + 36
 print(sol_exp)
+
+# type casting 
+
+num = 42
+print(type(num))
+print(type(str(num)))
+
+name = "123"
+print(type(name))
+print(type(int(name)))
+
+price = 425.76
+print(type(price))
+print(type(int(price)))
+print(type(str(price)))
