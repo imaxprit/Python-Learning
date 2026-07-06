@@ -57,3 +57,13 @@ print("No! this is your pass",my_var)
 my_var = "School"
 print("The correct pass is " + my_var)
 
+string = "$"
+unicode_code = ord(string)
+print("Unicode of", string, "=", unicode_code)
+print(ord("1"))
+print(chr(65))
+
+# name = input("Enter your name: ")
+# age = int(input("Enter your age: "))
+
+# print("\nHello,", name + "! you are", age, "years old.")
