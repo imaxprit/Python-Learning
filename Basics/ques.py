@@ -31,7 +31,27 @@ name = "123"
 print(type(name))
 print(type(int(name)))
 
-price = 425.76
-print(type(price))
-print(type(int(price)))
-print(type(str(price)))
+# price = 425.76
+# print(type(price))
+# print(type(int(price)))
+# print(type(str(price)))
+
+# Write a program to convert temperature from Celsius to Fahrenheit
+
+# cel_temp = float(input("Enter temparture in Celcius : "))
+
+# farhenhit = (cel_temp * 9 / 5) + 32
+# print("Temparature in farhenhit is", round(farhenhit, 3))
+
+x = 10
+y = 5
+print(x > y and x < 15)
+
+x = 5
+y = "2"
+# print(x + y)
+
+sol2_exp = 8 // 3 + 4 % 2
+
+# 2 + 2 = 4.0
+print(sol2_exp)
