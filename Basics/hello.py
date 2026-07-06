@@ -67,3 +67,9 @@ print(chr(65))
 # age = int(input("Enter your age: "))
 
 # print("\nHello,", name + "! you are", age, "years old.")
+
+# Write a program to find the sum of two numbers entered by the user.
+
+num1 = int(input("Enter first num: "))
+num2 = int(input("Enter second num: "))
+print("Sum of", num1, "and", num2, "is", (num1+num2))
