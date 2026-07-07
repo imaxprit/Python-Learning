@@ -171,13 +171,28 @@ sol2_exp = 8 // 3 + 4 % 2
 # 3) 41-60 Average 
 # 4) <=40 Fail
 
-per = float(input("Enter percentage of Student : "))
-if (per>=81 and per<=100) :
-    print("Very Good")
-elif (per>=61 and per<=80) :
-    print("Good")
-elif (per>=41 and per<=60) :
-    print("Average")
-else :
-    print("Fail")
+# per = float(input("Enter percentage of Student : "))
+# if (per>=81 and per<=100) :
+#     print("Very Good")
+# elif (per>=61 and per<=80) :
+#     print("Good")
+# elif (per>=41 and per<=60) :
+#     print("Average")
+# else :
+#     print("Fail")
 
+
+# match case example :
+
+def food_time(value) :
+    match value :
+        case 8 :
+            print("Its Breakfast Time!")
+        case 1 :
+            print("We have Lunch break!")
+        case 5 :
+            print("Let's take snacks")
+        case 9 :
+            print("Come guys, Its time to Dinner")
+
+food_time(8)
