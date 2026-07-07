@@ -40,8 +40,9 @@ def day_example(value) :
             print("Saturday")
         case 7 :
             print("Sunday")
-day_example(1)
-day_example(2)
-day_example(6)
-day_example(3)
-day_example(5)
+
+
+# ternary operator
+num = 15
+result = "Even" if (num%2==0) else "Odd"
+print(result)
