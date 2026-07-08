@@ -30,5 +30,24 @@ marks = [75, 89, 65, 88, 94]
 #     print(i, "Hello World")
 
 
+# break statement
+
+# for num in range(1, 11) :
+#     if num == 6:
+#         break
+#     print(num)
+
+# continue statement
+
+# for num in range(1, 11) :
+#     if num == 6:
+#         continue
+#     print(num)
 
 
+# pass statement
+
+for num in range(1, 6):
+    if num == 3:
+        pass
+    print(num, end=" ")
