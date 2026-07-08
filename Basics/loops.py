@@ -25,7 +25,10 @@ marks = [75, 89, 65, 88, 94]
 # for i in marks :
 #     print(i, end=" ")
 
-n = int(input("enter n : "))
-for i in range(n):
-    print(i, "Hello World")
+# n = int(input("enter n : "))
+# for i in range(n):
+#     print(i, "Hello World")
+
+
+
 

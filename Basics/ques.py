@@ -195,4 +195,18 @@ def food_time(value) :
         case 9 :
             print("Come guys, Its time to Dinner")
 
-food_time(8)
+# food_time(8)
+
+# Print numbers from 1 to 100
+# for i in range(1, 101) :
+#     print(i, end=" ")
+
+
+# Print even numbers from 1 to 100
+# for num in range(0, 102, 2) :
+#     print(num, end=" ")
+
+# Display this AP - 1,3,5,7,9.. upto ‘n’ terms
+# n = 4
+# for ap in range(1, n-1) :
+#     print(ap, end=", ")
