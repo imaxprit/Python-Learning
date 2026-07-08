@@ -43,6 +43,10 @@ def day_example(value) :
 
 
 # ternary operator
-num = 15
-result = "Even" if (num%2==0) else "Odd"
-print(result)
+# num = 15
+# result = "Even" if (num%2==0) else "Odd"
+# print(result)
+
+# Print numbers from 1 to 100
+# for i in range(1, 101) :
+#     print(i, end=" ")
