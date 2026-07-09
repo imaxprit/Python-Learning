@@ -9,11 +9,19 @@
 #     print("*", end=" ")
 #     rows += 1
 
-n = int(input("Enter n : "))
+# n = int(input("Enter n : "))
 # for i in range(n) :
 #     print("*" * 5)
 
-for i in range(n) :
-    for j in range(1, n+1) :
-        print(j, end=" ")
-    print()
+# for i in range(n) :
+#     for j in range(1, n+1) :
+#         print(j, end=" ")
+#     print()
+
+
+# print star pattern
+
+n = int(input("Enter n : "))
+for i in range(1, n+1) :
+    print("*" * i)
+print()
