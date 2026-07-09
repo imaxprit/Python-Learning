@@ -39,3 +39,4 @@ while x >= 0:
         continue
     else :
         print(x, y)
+
