@@ -222,5 +222,17 @@ def food_time(value) :
 # nums[idx2] = temp
 # print(nums)
 
+# Reverse a tuple
 
 
+
+def Reverse(alpha) :
+    list = []
+    for k in reversed(alpha) :
+        list = list + [k]
+    tuple(list)
+    print(list)
+
+alpha = (14, 12, 10, 9, 8)
+Reverse(alpha)
+print(type(alpha))
