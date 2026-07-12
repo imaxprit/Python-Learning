@@ -210,3 +210,17 @@ def food_time(value) :
 # n = 4
 # for ap in range(1, n-1) :
 #     print(ap, end=", ")
+
+# write a program to swap the two elements in the list.
+ 
+# nums = [12, 45, 36, 78]
+# print(nums)
+# idx1 = 1
+# idx2 = 2
+# temp = nums[idx1]
+# nums[idx1] = nums[idx2]
+# nums[idx2] = temp
+# print(nums)
+
+
+
