@@ -46,7 +46,7 @@ nums.sort()
 
 char = ["Ball", "Ant", "Ice", "Div"]
 char.sort()
-print(char)
+# print(char)
 
 nums.sort(reverse=True)
 # print(nums)
@@ -55,4 +55,20 @@ nums.reverse()
 # print(nums)
 
 newList = [x for x in char if "a" in x]
-print(newList)
+# print(newList)
+
+# copying a List 
+list1 = ["Pen", "Pencil", "Paper"]
+# print(list1)
+# list2 = list1
+# print(list2)
+# print(list1)
+
+# list3 = list1.copy()
+# print(list3)
+
+# Concatenation of lists
+
+a = [1, 2, 3]
+b = [4, 5, 6]
+print(a + b)
