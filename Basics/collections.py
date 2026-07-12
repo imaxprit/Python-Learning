@@ -56,3 +56,36 @@ newList = list(("amazon", "google", "meta"))
 #     this_list.append(element)
 # print(this_list)
 
+
+# TUPLES
+
+my_tuple = ("ant","rat", "cat", "rat")
+print(my_tuple)
+print(type(my_tuple))
+
+# print(my_tuple[0])
+# my_tuple[0] = "Fish"
+# print(my_tuple)
+
+fruit = ("apple",)
+# print(fruit)
+# print(type(fruit))
+# print(len(fruit))
+
+myTuple = tuple(("a",12, 75.8))
+print(myTuple)
+
+# print(myTuple[0])
+# print(myTuple[-1])
+
+dist = ("UP32", "UP78", "UP65", "UP25", "UP14")
+print(dist[-3:-1])
+
+if "UP70" in dist :
+    print("Valid")
+
+for x in dist :
+    print(x)
+
+cities = ("Lucknow", "Kanpur", "Varanasi", "Bareilly", "Noida")
+print(dist + cities)
