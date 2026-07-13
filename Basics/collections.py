@@ -101,3 +101,17 @@ print(len(this_set))
 # for x in this_set :
 #     print(x)
 
+# print("Harry" in this_set)
+# this_set.add("steave")
+# print(this_set)
+
+# val = ["A", "B"]
+# this_set.update(val)
+# print(this_set)
+# print(type(this_set))
+# this_set.remove("A")
+# this_set.remove("B")
+# print(this_set)
+
+
+
