@@ -59,9 +59,9 @@ newList = list(("amazon", "google", "meta"))
 
 # TUPLES
 
-my_tuple = ("ant","rat", "cat", "rat")
-print(my_tuple)
-print(type(my_tuple))
+# my_tuple = ("ant","rat", "cat", "rat")
+# print(my_tuple)
+# print(type(my_tuple))
 
 # print(my_tuple[0])
 # my_tuple[0] = "Fish"
@@ -72,20 +72,32 @@ fruit = ("apple",)
 # print(type(fruit))
 # print(len(fruit))
 
-myTuple = tuple(("a",12, 75.8))
-print(myTuple)
+# myTuple = tuple(("a",12, 75.8))
+# print(myTuple)
 
 # print(myTuple[0])
 # print(myTuple[-1])
 
-dist = ("UP32", "UP78", "UP65", "UP25", "UP14")
-print(dist[-3:-1])
+# dist = ("UP32", "UP78", "UP65", "UP25", "UP14")
+# print(dist[-3:-1])
 
-if "UP70" in dist :
-    print("Valid")
+# if "UP70" in dist :
+#     print("Valid")
 
-for x in dist :
-    print(x)
+# for x in dist :
+    # print(x)
 
-cities = ("Lucknow", "Kanpur", "Varanasi", "Bareilly", "Noida")
-print(dist + cities)
+# cities = ("Lucknow", "Kanpur", "Varanasi", "Bareilly", "Noida")
+# print(dist + cities)
+
+
+# Sets
+
+this_set = {"Rohn", "Peter", "Joe", "Harry", "Peter", 45, 78, 49.85}
+print(this_set)
+print(type(this_set))
+print(len(this_set))
+
+# for x in this_set :
+#     print(x)
+
