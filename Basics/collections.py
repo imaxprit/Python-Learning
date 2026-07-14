@@ -94,9 +94,9 @@ fruit = ("apple",)
 # Sets
 
 this_set = {"Rohn", "Peter", "Joe", "Harry", "Peter", 45, 78, 49.85}
-print(this_set)
-print(type(this_set))
-print(len(this_set))
+# print(this_set)
+# print(type(this_set))
+# print(len(this_set))
 
 # for x in this_set :
 #     print(x)
@@ -119,3 +119,48 @@ print(len(this_set))
 
 # set3 = set1.union(set2)
 # print(set3)
+
+
+# Dictionary
+
+product = {
+    "brand" : "Ford",
+    "model" : "Mustang",
+    "year" : 1964,
+    "colors" : ["red", "white", "blue"],
+}
+
+print(product)
+print(type(product))
+print(len(product))
+
+info = dict(name="arpit", age=22, country="India")
+print(info)
+print(type(info))
+
+x = info.get("name")
+print(x)
+
+y = product.keys()
+print(y)
+
+info["name"] = "Rohan"
+print(info)
+info["marks"] = 78
+print(info)
+
+add_info = {"gender": "male"}
+info.update(add_info)
+print(info)
+
+info.pop("gender")
+print(info)
+
+info.popitem()
+print(info)
+
+del add_info["gender"]
+print(add_info)
+
+info.clear()
+print(info)
