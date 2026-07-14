@@ -130,37 +130,84 @@ product = {
     "colors" : ["red", "white", "blue"],
 }
 
-print(product)
-print(type(product))
-print(len(product))
+# print(product)
+# print(type(product))
+# print(len(product))
 
 info = dict(name="arpit", age=22, country="India")
-print(info)
-print(type(info))
+# print(info)
+# print(type(info))
 
 x = info.get("name")
-print(x)
+# print(x)
 
 y = product.keys()
-print(y)
+# print(y)
 
 info["name"] = "Rohan"
-print(info)
+# print(info)
 info["marks"] = 78
-print(info)
+# print(info)
 
 add_info = {"gender": "male"}
 info.update(add_info)
-print(info)
+# print(info)
 
 info.pop("gender")
-print(info)
+# print(info)
 
 info.popitem()
-print(info)
+# print(info)
 
 del add_info["gender"]
-print(add_info)
+# print(add_info)
 
 info.clear()
-print(info)
+# print(info)
+
+items = {
+    "Pencil" : 15,
+    "Pen" : 25,
+    "Eraser" : 10
+}
+# items["Pen"] = 40
+# for x in items :
+#     print(x)
+#     # print(type(x))
+#     print(items[x])
+#     print(items.values())
+
+# for x, y in items.items() :
+#     print(x, y)
+
+# items2 = items
+# print(items2)
+
+# myItems = items.copy()
+# print(myItems)
+
+
+# Nested Dictionaries
+
+student = {
+    "student1" : {
+        "name" : "Aman",
+        "age" : 21,
+        "marks" : 89.85
+    },
+    "student2" : {
+        "name" : "Rajat",
+        "age" : 22,
+        "marks" : 78.63
+    },
+    "student3" : {
+        "name" : "Palak",
+        "age" : 20,
+        "marks" : 95.74 
+    },
+}
+
+print(student)
+print(type(student))
+
+print(student["student1"]["name"])
