@@ -5,7 +5,29 @@ def add_sum(a,b):
 
 # add_sum(5, 1
 
+# Calling a function
 def say_hello():
     print("Hello!")
 
 # say_hello()
+
+# Default argument
+def greet(name, message="Hello"):
+    print(message, name)
+
+# greet("Rahul", "Good Evening")
+
+# Keyword arguments (named arguments)
+
+def info(name, age):
+    print("Hello", name, "you are", age, "years old.")
+
+# info(name="kamal", age=45)
+
+# Positional arguments
+
+def square_num(x, y):
+    sq_num = x ** y
+    print("Square is", sq_num)
+
+# square_num(2, 5)
