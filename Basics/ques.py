@@ -271,5 +271,24 @@ arr3 = [3, 4, 15, 20, 30, 70, 80, 120]
 
 myDict = {'a' : 100, 'b':200, 'c':300}
 myDict2 = {'x': 25, 'y': 18, 'z': 45}
-print(sum(myDict.values()))
-print(sum(myDict2.values()))
+# print(sum(myDict.values()))
+# print(sum(myDict2.values()))
+
+
+# Python function to calculate the factorial of a number (a non-negative integer)
+
+def factorial(num):
+    if num < 0:
+        raise ValueError("Factorial is not defined for negative numbers.")
+    elif num == 0:
+        return 1
+    else :
+        result = 1
+        for i in range(1, num+1):
+            result *= i
+        return result
+
+num = 5
+factorial_val = factorial(num)
+print(f"\n The factorial of {num} is : {factorial_val}")
+
