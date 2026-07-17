@@ -105,6 +105,8 @@ ans = calculation(40, 10)
 def show_Employee(name, salary=9000) :
     print(f"{name} salary : {salary}")
 
+# show_Employee("Ben",12000)
+# show_Employee("Jessa")
 
-show_Employee("Ben",12000)
-show_Employee("Jessa")
+
+# 
