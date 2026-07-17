@@ -72,3 +72,23 @@
 
 
 
+# 11. Create a Function with Parameters
+
+def demo(name, age):
+    print("name =",name)
+    print("age =", age)
+
+# demo("Arpit", 25)
+
+# 12. Variable Length of Arguments (*args)
+
+def funct1(*args):
+    print("Printing Values: ")
+    for i in args:
+        print(i)
+
+# funct1(20, 40, 60)
+# funct1(80, 100)
+
+
+
