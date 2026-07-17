@@ -90,5 +90,21 @@ def funct1(*args):
 # funct1(20, 40, 60)
 # funct1(80, 100)
 
+# Return Multiple Values from a Function
+
+def calculation(a, b) :
+    add = a + b
+    sub = a - b
+    return add, sub
+
+ans = calculation(40, 10)
+# print(ans)
+
+# Function with Default Argument
+
+def show_Employee(name, salary=9000) :
+    print(f"{name} salary : {salary}")
 
 
+show_Employee("Ben",12000)
+show_Employee("Jessa")
