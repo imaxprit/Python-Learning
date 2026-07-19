@@ -39,3 +39,63 @@ subject = "Computer"
 # for index, char in enumerate(subject) :
 #     print(f"Character at index {index}: {char}")
 
+# String Length
+
+code = "Python"
+# print(len(code))
+
+# print(code.find('x'))
+
+
+# Slicing a string
+
+# print(code[:5])
+# print(code[:3])
+
+# print(code[1:])
+# print(code[2:])
+
+# print(code[-4:-1])
+# print(code[1:-1])
+
+
+# Modifying Strings
+
+text = "hello, arpit"
+
+# print(text)
+# print(text.upper())
+# print(text)
+
+text2 = "Welcome to Web Development"
+# print(text2)
+# print(text2.lower())
+
+text3 = "   Programming        "
+# print(text3)
+# print(text3.strip())
+
+text4 = "Indigo"
+# print(text4)
+# print(text4.replace('ig', 'ae'))
+# print(text4)
+
+# print(text.replace('hello', 'Thanks'))
+
+# print(text2.split())
+
+# print(text.capitalize())
+
+# concatenation
+
+str1 = "Free"
+str2 = "Fire"
+print(str1 + " " + str2)
+
+name = "Parker"
+city = "London"
+format_str = "I am {n}, from {c}".format(n=name, c=city)
+print(format_str)
+
+
+
