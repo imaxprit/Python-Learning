@@ -90,12 +90,17 @@ text4 = "Indigo"
 
 str1 = "Free"
 str2 = "Fire"
-print(str1 + " " + str2)
+# print(str1 + " " + str2)
 
 name = "Parker"
 city = "London"
 format_str = "I am {n}, from {c}".format(n=name, c=city)
-print(format_str)
+# print(format_str)
 
 
-
+quantity = 3
+item_number = 567
+price = 49.95
+ 
+output_string = "I want %d pieces of item %d for %.2f dollars." % (quantity, item_number, price)
+# print(output_string)
