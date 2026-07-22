@@ -19,6 +19,18 @@ def print_range(num):
         print(f"Current Number {i} Previous Number {prev_num} Sum: {sum}")
         prev_num = i
 
-print_range(10)
+# print_range(10)
+
+# Exercise 3. String Indexing and Even Slicing
+
+string_val = "pynative"
+print(string_val)
+
+even_word = string_val[0::2]
+
+for i in even_word:
+    print(i)
+
+
     
      
