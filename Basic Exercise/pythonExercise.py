@@ -72,3 +72,19 @@ fruits.pop(1)
 text = "Python"
 rev_text = text[::-1]
 # print(rev_text)
+
+# Exercise 9. Vowel Frequency Counter
+sentence = "Learning Python is fun!"
+vowels = "aeiou"
+count = 0
+for char in sentence.lower():
+    if char in vowels:
+        count += 1
+# print(f"Number of Vowels : {count}")
+
+# Exercise 10. Finding Extremes (Min/Max) in a List
+nums = [45, 2, 89, 12, 7]
+largest = max(nums)
+smallest = min(nums)
+
+print(f"Smallest : {smallest}, Largest : {largest}")
