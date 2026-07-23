@@ -62,3 +62,13 @@ def factorial(num):
     print(f)
 # factorial(3)
 
+# Exercise 7. List Manipulation: Add and Remove
+fruits = ["apple", "banana", "cherry", "date", "elderberry"]
+fruits.append("fig")
+fruits.pop(1)
+# print(fruits)
+
+# Exercise 8. String Reversal
+text = "Python"
+rev_text = text[::-1]
+# print(rev_text)
