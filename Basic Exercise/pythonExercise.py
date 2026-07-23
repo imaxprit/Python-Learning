@@ -41,4 +41,10 @@ def remove_chars(str_val, n):
 # remove_chars("pynative", 2)
 
     
-     
+# Exercise 5. Variable Swapping (The In-Place Method)
+a = 5
+b = 10
+# print(f"Before Swap : a = {a}, b = {b}")
+# a, b = b, a
+# print(f"After Swap : a = {a}, b = {b}")
+
