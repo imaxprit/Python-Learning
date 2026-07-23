@@ -48,3 +48,17 @@ b = 10
 # a, b = b, a
 # print(f"After Swap : a = {a}, b = {b}")
 
+# Exercise 6. Calculating Factorial with a Loop
+num = 5
+fact = 1
+
+def factorial(num):
+    
+    if num == 0 or num == 1:
+        f = 1
+    f = 1
+    for i in range(1, num+1):
+        f = f * i
+    print(f)
+# factorial(3)
+
