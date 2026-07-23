@@ -23,14 +23,22 @@ def print_range(num):
 
 # Exercise 3. String Indexing and Even Slicing
 
-string_val = "pynative"
-print(string_val)
+# string_val = "pynative"
+# print(string_val)
 
-even_word = string_val[0::2]
+# even_word = string_val[0::2]
 
-for i in even_word:
-    print(i)
+# for i in even_word:
+#     print(i)
 
+# Exercise 4. String Slicing and Substring Removal
+
+def remove_chars(str_val, n):
+    new_val = str_val[n:]
+    print(new_val)
+
+# remove_chars("pynative", 4)
+# remove_chars("pynative", 2)
 
     
      
