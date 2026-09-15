@@ -87,4 +87,15 @@ nums = [45, 2, 89, 12, 7]
 largest = max(nums)
 smallest = min(nums)
 
-print(f"Smallest : {smallest}, Largest : {largest}")
+# print(f"Smallest : {smallest}, Largest : {largest}")
+
+# Exercise 11. Removing Duplicates from a List
+
+data = [1, 2, 2, 3, 4, 4, 4, 5]
+unique_data = list(set(data))
+
+# print(f"Unique List {unique_data}")
+
+# Exercise 12. List Comparison and Boolean Logic
+
+
