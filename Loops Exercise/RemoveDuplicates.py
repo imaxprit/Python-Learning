@@ -8,4 +8,4 @@ for num in original:
     if num not in unique_list:
         unique_list.append(num)
 
-print("Uniquw List:", unique_list)
+print("Unique List:", unique_list)
