@@ -54,6 +54,3 @@ a, b = b, a
 word = "Python"
 length = len(word)
 print("Length of the word:", length)
-
-# Python Operators
-
