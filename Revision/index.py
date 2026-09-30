@@ -54,3 +54,10 @@ a, b = b, a
 word = "Python"
 length = len(word)
 print("Length of the word:", length)
+
+# Data Types
+
+x = 50
+x = 65.96
+x = "Hello World"
+x = []
