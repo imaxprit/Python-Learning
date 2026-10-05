@@ -41,3 +41,28 @@ s = "N" + s[1:]
 del s
 # print(s)
 
+# Updating a String
+s = "ABCD EF"
+s1 = "H" + s[1:]
+s2 = s.replace("ABC", "abc")
+
+# print(s1)
+# print(s2)
+
+# Common String Methods
+
+text = "Hollywood"
+# print(text)
+# print(len(text))
+
+# print(text.lower())
+# print(text.upper())
+
+newS = "    ABC   "
+
+# print(newS)
+# print(newS.strip())
+
+s = "Python is fun"
+
+print(s.replace("fun", "awesome"))
