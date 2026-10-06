@@ -65,4 +65,27 @@ newS = "    ABC   "
 
 s = "Python is fun"
 
-print(s.replace("fun", "awesome"))
+# print(s.replace("fun", "awesome"))
+
+# Concatenating and Repeating Strings
+
+s1 = "New "
+s2 = "Delhi"
+# print(s1 + s2)
+
+print(s1 * 3)
+
+# Formatting Strings
+
+# 1. Using f-strings:
+name = "Sakshi"
+age = 22
+# print(f"The Name is {name}, age is {age}")
+
+# 2. Using format(): 
+newStr = "My name is {} and I am {} years old".format("Ajay", 23)
+# print(newStr)
+
+item = "Lenovo is Brand"
+print("Lenovo" in item)
+print("Brand" in item)
