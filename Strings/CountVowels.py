@@ -1,4 +1,4 @@
-# Exercise 8. Vowel Counter
+# Exercise 7. Vowel Counter
 
 str1 = "Hello Friends"
 vowels = "aeiouAEIOU"
@@ -9,3 +9,4 @@ for char in str1:
         count += 1
 
 print("Total Vowels =", count)
+
