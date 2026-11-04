@@ -1,4 +1,4 @@
-// Exercise 40. Calculate Cumulative Sum (Prefix Sums)
+# Exercise 40. Calculate Cumulative Sum (Prefix Sums)
 
 def cumulative_sum(nums):
     total = 0
